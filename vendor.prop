@@ -148,4 +148,7 @@ ro.vendor.mtk_camera_app_version=3
 persist.vendor.radio.smart.data.switch=1
 ro.crypto.volume.filenames_mode=aes-256-cts
 ro.com.google.clientidbase=android-agold
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
 persist.radio.lte.chip=0
