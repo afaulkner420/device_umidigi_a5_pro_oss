@@ -97,7 +97,7 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6763
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2020-03-05
+VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # SEPolicy
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
