@@ -882,12 +882,5 @@ vendor/lib64/libxapi_preview.so
 vendor/lib64/libxapi_undistort.so
 vendor/lib64/lib_iir.so
 vendor/lib64/lib_speech_enh.so
-vendor/res/images/lcd_test_00.png
-vendor/res/images/lcd_test_01.png
-vendor/res/images/lcd_test_02.png
-vendor/res/sound/CA2CA.ogg
-vendor/res/sound/CADetected.ogg
-vendor/res/sound/ringtone.wav
-vendor/res/sound/testpattern1.wav
 vendor/thh/ta/0401c03fc30c4dd00000000000000104.ta
 vendor/thh/ta/TAs_list
