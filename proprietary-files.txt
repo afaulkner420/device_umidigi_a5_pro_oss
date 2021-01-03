@@ -425,6 +425,12 @@ vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 vendor/lib64/vendor.mediatek.hardware.wifi.hostapd@2.0.so
 vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so
 
+# Neural-networks - from full_oppo6771_17065-user 9 PPR1.180610.011 eng.root.20200509.060522 release-keys
+vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-apunn
+vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-gpunn|192e7b29f4cdf483db1b99d5f7cfc3a137dbe6ac
+vendor/etc/init/android.hardware.neuralnetworks@1.1-service-apunn.rc
+vendor/etc/init/android.hardware.neuralnetworks@1.1-service-gpunn.rc
+
 # Power-Hardware
 vendor/bin/hw/power_native_test_v_2_0
 vendor/lib/hw/power.default.so
