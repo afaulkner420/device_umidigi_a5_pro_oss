@@ -94,6 +94,3 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-03-05
-
-# system-as-root
-BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
