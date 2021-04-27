@@ -484,11 +484,6 @@ vendor/lib64/hw/thermal.mt6763.so
 # Misc
 -vendor/app/EmCamera/EmCamera.apk
 vendor/app/EmCamera/lib/arm64/libem_camera_jni.so
-vendor/bin/aeev
-vendor/bin/aee_aedv
-vendor/bin/aee_aedv64
-vendor/bin/aee_archivev
-vendor/bin/aee_dumpstatev
 vendor/bin/atcid
 vendor/bin/audiocmdservice_atci
 vendor/bin/autobt
@@ -552,7 +547,6 @@ vendor/bin/wmt_loader
 vendor/bin/wmt_loopback
 vendor/data/misc/ProjectConfig.mk
 vendor/etc/.tp/.ht120.mtc
-vendor/etc/aee-config
 vendor/etc/agps_profiles_conf2.xml
 vendor/etc/ams_aal_config.xml
 vendor/etc/aurisys_config.xml
@@ -571,8 +565,6 @@ vendor/etc/ecc_list_OP09.xml
 vendor/etc/ecc_list_OP12.xml
 vendor/etc/ecc_list_OP17.xml
 vendor/etc/ecc_list_OP18.xml
-vendor/etc/init/aee_aedv.rc
-vendor/etc/init/aee_aedv64.rc
 vendor/etc/init/atcid.rc
 vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/init/bootperf.rc
