@@ -1,5 +1,11 @@
 [
   {
+   "remote"      : "github",
+   "repository"  : "PixelExperience/device_mediatek_sepolicy_vndr",
+   "target_path" : "device/mediatek/sepolicy_vndr",
+   "branch"      : "eleven"
+  },
+  {
     "remote":      "github",
     "repository":  "UMIDIGI-MT6763-Development/kernel_mediatek_alps-4.4",
     "target_path": "kernel/mediatek/alps-4.4",
