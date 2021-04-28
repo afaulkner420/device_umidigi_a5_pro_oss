@@ -1,2 +1,4 @@
 libMcClient.so
 libMcRegistry.so
+libarmnn_ndk.mtk.so
+libcmdl_ndk.mtk.so
