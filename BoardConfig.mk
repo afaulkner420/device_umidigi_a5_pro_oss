@@ -59,3 +59,6 @@ BOARD_MKBOOTIMG_ARGS += --dtb_offset $(BOARD_DTB_OFFSET)
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6763
+
+# Security patch level
+VENDOR_SECURITY_PATCH := 2020-03-05
