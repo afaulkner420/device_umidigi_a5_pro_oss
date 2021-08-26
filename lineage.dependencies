@@ -1,0 +1,8 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "UMIDIGI-MT6763-Development/kernel_mediatek_alps-4.4",
+    "target_path": "kernel/mediatek/alps-4.4",
+    "branch":      "eleven"
+  }
+]
