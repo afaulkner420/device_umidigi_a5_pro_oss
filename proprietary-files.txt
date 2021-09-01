@@ -267,7 +267,7 @@ vendor/etc/init/vendor.mediatek.hardware.power@2.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
 vendor/etc/media_codecs_mediatek_audio.xml
 vendor/etc/media_codecs_mediatek_video.xml
-vendor/lib/hw/android.hardware.audio@4.0-impl-mediatek.so
+vendor/lib/hw/android.hardware.audio@4.0-impl-mediatek.so|8ae62db76c61ad8a4abd7f9d5bf8c16701fd9b60
 vendor/lib/hw/vendor.mediatek.hardware.dfps@1.0-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.mms@1.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so
