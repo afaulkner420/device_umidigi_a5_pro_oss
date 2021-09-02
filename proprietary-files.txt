@@ -39,7 +39,7 @@ vendor/lib64/libaudiotoolkit_vendor.so
 vendor/lib64/libaudio_param_parser-vnd.so
 
 # Audio-Hardware
-vendor/lib/hw/audio.primary.mt6763.so
+vendor/lib/hw/audio.primary.mt6763.so|f06d08088a8ce46beead4bd4f9af7d689e53af5b
 vendor/lib/hw/audio.r_submix.mt6763.so
 vendor/lib/hw/audio.usb.mt6763.so
 vendor/lib64/hw/audio.primary.mt6763.so
