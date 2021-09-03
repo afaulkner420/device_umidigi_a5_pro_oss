@@ -292,18 +292,6 @@ vendor/lib/libmtkcutils.so
 vendor/lib/libmtkhardware_legacy.so
 vendor/lib/libmtklimiter_vendor.so
 vendor/lib/libmtknetutils.so
-vendor/lib/libMtkOmxAdpcmDec.so
-vendor/lib/libMtkOmxAdpcmEnc.so
-vendor/lib/libMtkOmxAlacDec.so
-vendor/lib/libMtkOmxApeDec.so
-vendor/lib/libMtkOmxCore.so
-vendor/lib/libMtkOmxG711Dec.so
-vendor/lib/libMtkOmxGsmDec.so
-vendor/lib/libMtkOmxMp3Dec.so
-vendor/lib/libMtkOmxRawDec.so
-vendor/lib/libMtkOmxVdecEx.so
-vendor/lib/libMtkOmxVenc.so
-vendor/lib/libMtkOmxVorbisEnc.so
 vendor/lib/libmtkproperty.so
 vendor/lib/libmtkrillog.so
 vendor/lib/libmtkshifter_vendor.so
@@ -385,7 +373,6 @@ vendor/lib64/libmtkcutils.so
 vendor/lib64/libmtkhardware_legacy.so
 vendor/lib64/libmtklimiter_vendor.so
 vendor/lib64/libmtknetutils.so
-vendor/lib64/libMtkOmxCore.so
 vendor/lib64/libmtkproperty.so
 vendor/lib64/libmtkrillog.so
 vendor/lib64/libmtkrilutils.so
@@ -440,6 +427,24 @@ vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-apunn
 vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-gpunn|192e7b29f4cdf483db1b99d5f7cfc3a137dbe6ac
 vendor/etc/init/android.hardware.neuralnetworks@1.1-service-apunn.rc
 vendor/etc/init/android.hardware.neuralnetworks@1.1-service-gpunn.rc
+
+# OMX
+vendor/etc/mtk_omx_core.cfg
+vendor/lib/libffmpeg_omx.so
+vendor/lib/libMtkOmxAdpcmDec.so
+vendor/lib/libMtkOmxAdpcmEnc.so
+vendor/lib/libMtkOmxAlacDec.so
+vendor/lib/libMtkOmxApeDec.so
+vendor/lib/libMtkOmxCore.so
+vendor/lib/libMtkOmxG711Dec.so
+vendor/lib/libMtkOmxGsmDec.so
+vendor/lib/libMtkOmxMp3Dec.so
+vendor/lib/libMtkOmxRawDec.so
+vendor/lib/libMtkOmxVdecEx.so|dd26da2c43d43d3847dc60ac21e91efaee5a092f
+vendor/lib/libMtkOmxVenc.so
+vendor/lib/libMtkOmxVorbisEnc.so
+vendor/lib64/libffmpeg_omx.so
+vendor/lib64/libMtkOmxCore.so
 
 # Power-Hardware
 vendor/bin/hw/power_native_test_v_2_0
@@ -620,7 +625,6 @@ vendor/etc/ipsec/ipsec.d/cacerts/VeriSignUniversalRootCertification.der
 vendor/etc/ipsec/ssl/openssl.cnf
 vendor/etc/ipsec/strongswan.conf
 vendor/etc/mpe.conf
-vendor/etc/mtk_omx_core.cfg
 vendor/etc/partition_permission.sh
 vendor/etc/permissions/pms_sysapp_removable_vendor_list.txt
 vendor/etc/pildc.cfg
