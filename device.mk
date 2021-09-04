@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Get non-open-source specific aspects
+$(call inherit-product, vendor/UMIDIGI/A5_Pro/A5_Pro-vendor.mk)
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@4.0 \

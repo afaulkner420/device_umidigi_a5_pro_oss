@@ -1,5 +1,11 @@
 [
   {
+    "remote":      "github",
+    "repository":  "UMIDIGI-MT6763-Development/vendor_UMIDIGI_A5_Pro",
+    "target_path": "vendor/UMIDIGI/A5_Pro",
+    "branch":      "eleven"
+  },
+  {
    "remote"      : "github",
    "repository"  : "PixelExperience/device_mediatek_sepolicy_vndr",
    "target_path" : "device/mediatek/sepolicy_vndr",
