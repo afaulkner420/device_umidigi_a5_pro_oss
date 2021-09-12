@@ -14,12 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-# Make the HAL library
-# ============================================================
 include $(CLEAR_VARS)
-
-LOCAL_REQUIRED_MODULES :=
-
 LOCAL_CFLAGS += -Wno-unused-parameter -Wno-int-to-pointer-cast
 LOCAL_CFLAGS += -Wno-maybe-uninitialized -Wno-parentheses
 LOCAL_CPPFLAGS += -Wno-conversion-null
@@ -40,6 +35,4 @@ LOCAL_SHARED_LIBRARIES += libutils liblog
 LOCAL_MODULE := libwifi-hal-mt66xx
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_OWNER := mtk
-
 include $(BUILD_STATIC_LIBRARY)
-
