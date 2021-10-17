@@ -205,21 +205,17 @@ vendor/lib64/vendor.mediatek.hardware.gnss@1.1.so
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service
 vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
 vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so
-vendor/lib/hw/gatekeeper.default.so
 vendor/lib/hw/gatekeeper.itrusty.so
 vendor/lib/hw/libSoftGatekeeper.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so
-vendor/lib64/hw/gatekeeper.default.so
 vendor/lib64/hw/gatekeeper.itrusty.so
 vendor/lib64/hw/libSoftGatekeeper.so
 
 # Graphics
 vendor/lib/egl/egl.cfg
 vendor/lib/egl/libGLES_mali.so
-vendor/lib/hw/vulkan.mt6763.so
 vendor/lib/libOpenCL.so
 vendor/lib64/egl/libGLES_mali.so
-vendor/lib64/hw/vulkan.mt6763.so
 vendor/lib64/libOpenCL.so
 
 # Keymaster
@@ -239,9 +235,7 @@ vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 
 # Keystore
-vendor/lib/hw/keystore.itrusty.so
 vendor/lib/hw/keystore.mt6763.so
-vendor/lib64/hw/keystore.itrusty.so
 vendor/lib64/hw/keystore.mt6763.so
 vendor/lib64/libkeystore-engine-wifi-hidl.so
 vendor/lib64/libkeystore-wifi-hidl.so
@@ -601,7 +595,6 @@ vendor/etc/ecc_list_OP09.xml
 vendor/etc/ecc_list_OP12.xml
 vendor/etc/ecc_list_OP17.xml
 vendor/etc/ecc_list_OP18.xml
-vendor/etc/fstab.mt6763
 vendor/etc/init/aee_aedv.rc
 vendor/etc/init/aee_aedv64.rc
 vendor/etc/init/atcid.rc
