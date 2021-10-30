@@ -913,19 +913,13 @@ vendor/etc/init/vibrator-mtk-default.rc|63f7577081fc8aca1d3cae9a32a77021ff041796
 -vendor/etc/vintf/manifest/vibrator-mtk-default.xml|1a42ecd34f950e3737c61247b2d1d85039643729
 
 # WiFi
-vendor/bin/hw/hostapd
-vendor/bin/hw/wpa_supplicant
-vendor/bin/hostapd_cli
 vendor/bin/wlan_assistant
 vendor/bin/wmt_concurrency
 vendor/bin/wmt_fdb
 vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
 vendor/bin/wmt_loopback
-vendor/etc/init/hostapd.android.rc
 vendor/etc/init/wlan_assistant.rc
-vendor/lib/libwpa_client.so
-vendor/lib64/libwpa_client.so
 vendor/lib64/libwifitest.so
 vendor/lib64/vendor.mediatek.hardware.wifi.hostapd@2.0.so
 vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so

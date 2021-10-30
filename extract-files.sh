@@ -58,15 +58,6 @@ function blob_fixup() {
         vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-gpunn)
             "${PATCHELF}" --add-needed "libunwindstack.so" "${2}"
             ;;
-        vendor/bin/hw/hostapd)
-            "${PATCHELF}" --add-needed "libcompiler_rt.so" "${2}"
-            "${PATCHELF}" --replace-needed "libc++.so" "libc++-v28.so" "${2}"
-            "${PATCHELF}" --replace-needed "libhwbinder.so" "libhwbinder-v28.so" "${2}"
-            ;;
-        vendor/bin/hw/wpa_supplicant)
-            "${PATCHELF}" --add-needed "libcompiler_rt.so" "${2}"
-            "${PATCHELF}" --replace-needed "libc++.so" "libc++-v28.so" "${2}"
-            ;;
         vendor/lib/libMtkOmxVdecEx.so)
             "${PATCHELF}" --replace-needed "libui.so" "libui-v28.so" "${2}"
             ;;
