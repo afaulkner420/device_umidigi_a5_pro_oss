@@ -107,3 +107,7 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # VNDK
 BOARD_VNDK_VERSION := current
+
+# WiFi
+BOARD_WLAN_DEVICE := MediaTek
+
