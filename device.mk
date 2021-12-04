@@ -9,20 +9,16 @@ $(call inherit-product, vendor/UMIDIGI/A5_Pro/A5_Pro-vendor.mk)
 
 # Audio
 PRODUCT_PACKAGES += \
-    audio.a2dp.default \
-    android.hardware.audio@5.0 \
     android.hardware.audio.effect@5.0-impl \
-    android.hardware.audio.common@6.0-util \
-    android.hardware.soundtrigger@2.2 \
     android.hardware.bluetooth.audio@2.0-impl \
-    android.hardware.broadcastradio@1.0 \
-    android.hardware.broadcastradio@1.1 \
+    android.hardware.soundtrigger@2.2-impl \
+    audio.a2dp.default \
     audio.bluetooth.default \
     audio.r_submix.default \
     audio.usb.default \
+    libaudiofoundation.vendor \
     libtinycompress \
-    libtinyxml \
-    libalsautils \
+    tinymix
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
