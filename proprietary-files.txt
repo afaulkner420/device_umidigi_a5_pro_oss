@@ -614,6 +614,23 @@ vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
+vendor/etc/init/microtrust.rc
+vendor/lib64/hw/kmsetkey.default.so
+vendor/lib64/libkmsetkey.so
+vendor/lib/hw/kmsetkey.default.so
+vendor/lib/hw/kmsetkey.itrusty.so
+vendor/lib64/hw/kmsetkey.itrusty.so
+vendor/etc/init/microtrust.init_thh.rc
+vendor/etc/init/microtrust.storage.file.rc
+vendor/etc/init/microtrust.storage.proinfo.rc
+vendor/etc/init/microtrust.storage.rpmb.rc
+vendor/lib/libitrusty.so
+vendor/lib/libtrusty.so
+vendor/lib64/libitrusty.so
+vendor/lib64/libtrusty.so
+vendor/bin/meta_tst
+vendor/thh/ta/TAs_list
+vendor/thh/ta/0401c03fc30c4dd00000000000000104.ta
 
 # Keystore
 vendor/lib/hw/keystore.itrusty.so
@@ -899,7 +916,6 @@ vendor/bin/hw/vtservice_hidl
 vendor/bin/init_thh
 vendor/bin/istorageproxyd
 vendor/bin/memsicp
-vendor/bin/meta_tst
 vendor/bin/muxreport
 vendor/bin/teei_loader
 vendor/bin/volte_imcb
@@ -928,11 +944,6 @@ vendor/etc/init/init.volte_ua.rc
 vendor/etc/init/init.vtservice.rc
 vendor/etc/init/init.wfca.rc
 vendor/etc/init/init.wod.rc
-vendor/etc/init/microtrust.init_thh.rc
-vendor/etc/init/microtrust.rc
-vendor/etc/init/microtrust.storage.file.rc
-vendor/etc/init/microtrust.storage.proinfo.rc
-vendor/etc/init/microtrust.storage.rpmb.rc
 vendor/etc/init/muxreport.rc
 vendor/etc/init/rild.rc
 vendor/etc/mpe.conf
@@ -940,8 +951,6 @@ vendor/etc/permissions/pms_sysapp_removable_vendor_list.txt
 vendor/etc/smsdbvisitor.xml
 vendor/etc/sw_config.xml
 vendor/etc/throttle.sh
-vendor/lib/hw/kmsetkey.default.so
-vendor/lib/hw/kmsetkey.itrusty.so
 vendor/lib/libapmonitor_vendor.so
 vendor/lib/libasn1c_core_vendor.so
 vendor/lib/libasn1c_mapi_vendor.so
@@ -954,12 +963,10 @@ vendor/lib/libh264dec_sd.ca7.so
 vendor/lib/libh264dec_se.ca7.so
 vendor/lib/libh264enc_sa.ca7.so
 vendor/lib/libHEVCdec_sa.ca7.android.so
-vendor/lib/libitrusty.so
 vendor/lib/libmhalImageCodec.so
 vendor/lib/libmp4enc_sa.ca7.so
 vendor/lib/libmrdumpv.so
 vendor/lib/libthha.so
-vendor/lib/libtrusty.so
 vendor/lib/libutinterface_custom_md.so
 vendor/lib/libutinterface_md.so
 vendor/lib/libvc1dec_sa.ca7.so
@@ -975,8 +982,6 @@ vendor/lib/libvp9dec_sa.ca7.so
 vendor/lib/libvt_custom.so
 vendor/lib/libxapi_undistort.so
 vendor/lib64/hw/gps.default.so
-vendor/lib64/hw/kmsetkey.default.so
-vendor/lib64/hw/kmsetkey.itrusty.so
 vendor/lib64/libapmonitor_vendor.so
 vendor/lib64/libasn1c_core_vendor.so
 vendor/lib64/libasn1c_mapi_vendor.so
@@ -986,8 +991,6 @@ vendor/lib64/libcurl_xcap_md.so
 vendor/lib64/libeffecthal.base.so
 vendor/lib64/libhevce_sb.ca7.android.so
 vendor/lib64/libifcutils_mtk.so
-vendor/lib64/libitrusty.so
-vendor/lib64/libkmsetkey.so
 vendor/lib64/libmemsic.so
 vendor/lib64/libmfllcore.so
 vendor/lib64/libmrdumpv.so
@@ -995,7 +998,6 @@ vendor/lib64/libpi_feature_util.so
 vendor/lib64/libpi_prv_feature.so
 vendor/lib64/libpi_still_feature.so
 vendor/lib64/libthha.so
-vendor/lib64/libtrusty.so
 vendor/lib64/libui_ext.so
 vendor/lib64/libutinterface_custom_md.so
 vendor/lib64/libutinterface_md.so
@@ -1004,5 +1006,3 @@ vendor/lib64/libverno.so
 vendor/lib64/libxapi_bokeh.so
 vendor/lib64/libxapi_preview.so
 vendor/lib64/libxapi_undistort.so
-vendor/thh/ta/0401c03fc30c4dd00000000000000104.ta
-vendor/thh/ta/TAs_list
