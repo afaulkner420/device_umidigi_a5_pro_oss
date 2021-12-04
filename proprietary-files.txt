@@ -938,7 +938,6 @@ vendor/etc/permissions/pms_sysapp_removable_vendor_list.txt
 vendor/etc/smsdbvisitor.xml
 vendor/etc/sw_config.xml
 vendor/etc/throttle.sh
-vendor/lib/hw/dfps.mt6763.so
 vendor/lib/hw/kmsetkey.default.so
 vendor/lib/hw/kmsetkey.itrusty.so
 vendor/lib/libapmonitor_vendor.so
@@ -947,8 +946,6 @@ vendor/lib/libasn1c_mapi_vendor.so
 vendor/lib/libasn1c_mdmi_vendor.so
 vendor/lib/libBnMtkCodec.so
 vendor/lib/libcurl_xcap_md.so
-vendor/lib/libfpspolicy.so
-vendor/lib/libged.so
 vendor/lib/libh264dec_customize.so
 vendor/lib/libh264dec_sa.ca7.so
 vendor/lib/libh264dec_sd.ca7.so
@@ -959,7 +956,6 @@ vendor/lib/libitrusty.so
 vendor/lib/libmhalImageCodec.so
 vendor/lib/libmp4enc_sa.ca7.so
 vendor/lib/libmrdumpv.so
-vendor/lib/libpq_prot.so
 vendor/lib/libthha.so
 vendor/lib/libtrusty.so
 vendor/lib/libutinterface_custom_md.so
