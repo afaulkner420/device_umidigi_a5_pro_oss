@@ -186,17 +186,19 @@ vendor/lib64/libaudioprimarydevicehalifclient.so
 
 # Bluetooth - from UMIDIGI/A7_Pro/A7_Pro:10/QP1A.190711.020/2111121735:user/release-keys
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek
+vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml
 vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc
-vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so
 vendor/lib/libbluetoothem_mtk.so
+vendor/bin/em_hidl
+vendor/etc/init/em_hidl_user.rc
 vendor/lib/libbluetooth_audio_session_mediatek.so
 vendor/lib/libbluetooth_hw_test.so
+vendor/bin/autobt
 vendor/lib/libbluetooth_mtk.so
 vendor/lib/libbluetooth_mtk_pure.so
 vendor/lib/libbluetooth_relayer.so
 vendor/lib/libbt-vendor.so
-vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl-mediatek.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so
 vendor/lib64/libbluetoothem_mtk.so
 vendor/lib64/libbluetooth_audio_session_mediatek.so
@@ -799,12 +801,10 @@ vendor/lib64/vendor.mediatek.hardware.wifi.hostapd@2.0.so
 vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so
 
 # Misc
-vendor/bin/autobt
 vendor/bin/bip
 vendor/bin/ccci_fsd
 vendor/bin/ccci_mdinit
 vendor/bin/ccci_rpcd
-vendor/bin/em_hidl
 vendor/bin/epdg_wod
 vendor/bin/factory
 vendor/bin/hw/mtkfusionrild
@@ -845,7 +845,6 @@ vendor/etc/ecc_list_OP12.xml
 vendor/etc/ecc_list_OP17.xml
 vendor/etc/ecc_list_OP18.xml
 vendor/etc/init/bootperf.rc
-vendor/etc/init/em_hidl_user.rc
 vendor/etc/init/init.bip.rc
 vendor/etc/init/init.cccifsd.rc
 vendor/etc/init/init.cccimdinit.rc
