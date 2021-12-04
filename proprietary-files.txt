@@ -449,6 +449,12 @@ vendor/etc/ipsec/ipsec.d/cacerts/VeriSignClass3G4.der
 vendor/etc/ipsec/ipsec.d/cacerts/VeriSignClass3G5.der
 vendor/etc/ipsec/ipsec.d/cacerts/VeriSignUniversalRootCertification.der
 vendor/etc/ipsec/ssl/openssl.cnf
+vendor/lib64/libcrypto-ss.so
+vendor/lib/libcrypto-ss.so
+vendor/lib64/libssl-ss.so
+vendor/lib64/libcurl-ss.so
+vendor/lib/libssl-ss.so
+vendor/lib/libcurl-ss.so
 vendor/etc/ipsec/strongswan.conf
 vendor/etc/security/cacerts_supl/111e6273.0
 vendor/etc/security/cacerts_supl/3ad48a91.0
@@ -940,8 +946,6 @@ vendor/lib/libasn1c_core_vendor.so
 vendor/lib/libasn1c_mapi_vendor.so
 vendor/lib/libasn1c_mdmi_vendor.so
 vendor/lib/libBnMtkCodec.so
-vendor/lib/libcrypto-ss.so
-vendor/lib/libcurl-ss.so
 vendor/lib/libcurl_xcap_md.so
 vendor/lib/libfpspolicy.so
 vendor/lib/libged.so
@@ -957,7 +961,6 @@ vendor/lib/libmhalImageCodec.so
 vendor/lib/libmp4enc_sa.ca7.so
 vendor/lib/libmrdumpv.so
 vendor/lib/libpq_prot.so
-vendor/lib/libssl-ss.so
 vendor/lib/libthha.so
 vendor/lib/libtrusty.so
 vendor/lib/libutinterface_custom_md.so
@@ -982,8 +985,6 @@ vendor/lib64/libasn1c_core_vendor.so
 vendor/lib64/libasn1c_mapi_vendor.so
 vendor/lib64/libasn1c_mdmi_vendor.so
 vendor/lib64/libBnMtkCodec.so
-vendor/lib64/libcrypto-ss.so
-vendor/lib64/libcurl-ss.so
 vendor/lib64/libcurl_xcap_md.so
 vendor/lib64/libeffecthal.base.so
 vendor/lib64/libhevce_sb.ca7.android.so
@@ -996,7 +997,6 @@ vendor/lib64/libmrdumpv.so
 vendor/lib64/libpi_feature_util.so
 vendor/lib64/libpi_prv_feature.so
 vendor/lib64/libpi_still_feature.so
-vendor/lib64/libssl-ss.so
 vendor/lib64/libthha.so
 vendor/lib64/libtrusty.so
 vendor/lib64/libui_ext.so
