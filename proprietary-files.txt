@@ -496,8 +496,6 @@ vendor/lib/hw/vendor.mediatek.hardware.pq@2.2-impl.so
 vendor/lib/libfpspolicy.so
 vendor/lib/libged.so
 vendor/lib/libgpu_aux.so
-vendor/lib/libminiui.so
-vendor/lib/libpixelflinger.so
 vendor/lib/libpq_prot.so
 vendor/lib/vendor.mediatek.hardware.dfps@1.0.so
 vendor/lib64/hw/dfps.mt6763.so
@@ -509,8 +507,6 @@ vendor/lib64/hw/vendor.mediatek.hardware.dfps@1.0-impl.so
 vendor/lib64/libfpspolicy.so
 vendor/lib64/libged.so
 vendor/lib64/libgpu_aux.so
-vendor/lib64/libminiui.so
-vendor/lib64/libpixelflinger.so
 vendor/lib64/libpq_prot.so
 vendor/lib64/vendor.mediatek.hardware.dfps@1.0.so
 
@@ -810,6 +806,27 @@ vendor/lib/libwo.so
 vendor/lib/libsysenv.so|9bcd41968251814c2209257173e02a8589fa8f04
 vendor/lib64/libsysenv.so|8faeff48161ab28d948256d543abdb2a8f08fa99
 
+# Rootdir
+vendor/bin/ccci_fsd
+vendor/etc/init/init.cccifsd.rc
+vendor/lib/libstorage_otp.so
+vendor/bin/ccci_mdinit
+vendor/etc/init/init.cccimdinit.rc
+vendor/bin/ccci_rpcd
+vendor/etc/init/init.cccirpcd.rc
+vendor/bin/factory
+vendor/lib64/libminiui.so
+vendor/lib64/libpixelflinger.so
+vendor/lib/libpixelflinger.so
+vendor/lib64/libhwm.so
+vendor/lib64/libfft_vendor.so
+vendor/lib/libminiui.so
+vendor/lib/libhwm.so
+vendor/bin/loghidlvendorservice
+vendor/etc/init/loghidlvendorservice.rc
+vendor/etc/init/init_connectivity.rc
+vendor/etc/partition_permission.sh
+
 # Sensors
 vendor/bin/hw/android.hardware.sensors@1.0-service-mediatek
 vendor/etc/init/android.hardware.sensors@1.0-service-mediatek.rc
@@ -870,14 +887,9 @@ vendor/lib64/vendor.mediatek.hardware.wifi.hostapd@2.0.so
 vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so
 
 # Misc
-vendor/bin/ccci_fsd
-vendor/bin/ccci_mdinit
-vendor/bin/ccci_rpcd
-vendor/bin/factory
 vendor/bin/hw/vtservice_hidl
 vendor/bin/init_thh
 vendor/bin/istorageproxyd
-vendor/bin/loghidlvendorservice
 vendor/bin/memsicp
 vendor/bin/meta_tst
 vendor/bin/muxreport
@@ -900,9 +912,6 @@ vendor/etc/DSM.xml
 vendor/etc/DSM_config.xml
 vendor/etc/init/bootperf.rc
 vendor/etc/init/init.bip.rc
-vendor/etc/init/init.cccifsd.rc
-vendor/etc/init/init.cccimdinit.rc
-vendor/etc/init/init.cccirpcd.rc
 vendor/etc/init/init.md_apps.rc
 vendor/etc/init/init.volte_imcb.rc
 vendor/etc/init/init.volte_imsm_93.rc
@@ -911,8 +920,6 @@ vendor/etc/init/init.volte_ua.rc
 vendor/etc/init/init.vtservice.rc
 vendor/etc/init/init.wfca.rc
 vendor/etc/init/init.wod.rc
-vendor/etc/init/init_connectivity.rc
-vendor/etc/init/loghidlvendorservice.rc
 vendor/etc/init/microtrust.init_thh.rc
 vendor/etc/init/microtrust.rc
 vendor/etc/init/microtrust.storage.file.rc
@@ -921,7 +928,6 @@ vendor/etc/init/microtrust.storage.rpmb.rc
 vendor/etc/init/muxreport.rc
 vendor/etc/init/rild.rc
 vendor/etc/mpe.conf
-vendor/etc/partition_permission.sh
 vendor/etc/permissions/pms_sysapp_removable_vendor_list.txt
 vendor/etc/smsdbvisitor.xml
 vendor/etc/sw_config.xml
@@ -946,16 +952,12 @@ vendor/lib/libh264dec_sd.ca7.so
 vendor/lib/libh264dec_se.ca7.so
 vendor/lib/libh264enc_sa.ca7.so
 vendor/lib/libHEVCdec_sa.ca7.android.so
-vendor/lib/libhwm.so
 vendor/lib/libitrusty.so
 vendor/lib/libmhalImageCodec.so
-vendor/lib/libminiui.so
 vendor/lib/libmp4enc_sa.ca7.so
 vendor/lib/libmrdumpv.so
-vendor/lib/libpixelflinger.so
 vendor/lib/libpq_prot.so
 vendor/lib/libssl-ss.so
-vendor/lib/libstorage_otp.so
 vendor/lib/libthha.so
 vendor/lib/libtrusty.so
 vendor/lib/libutinterface_custom_md.so
@@ -984,9 +986,7 @@ vendor/lib64/libcrypto-ss.so
 vendor/lib64/libcurl-ss.so
 vendor/lib64/libcurl_xcap_md.so
 vendor/lib64/libeffecthal.base.so
-vendor/lib64/libfft_vendor.so
 vendor/lib64/libhevce_sb.ca7.android.so
-vendor/lib64/libhwm.so
 vendor/lib64/libifcutils_mtk.so
 vendor/lib64/libitrusty.so
 vendor/lib64/libkmsetkey.so
