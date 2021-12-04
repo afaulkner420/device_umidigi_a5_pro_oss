@@ -501,7 +501,6 @@ vendor/lib/hw/vendor.mediatek.hardware.dfps@1.0-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.pq@2.2-impl.so
 vendor/lib/libfpspolicy.so
 vendor/lib/libged.so
-vendor/lib/libgpu_aux.so
 vendor/lib/libpq_prot.so
 vendor/lib/vendor.mediatek.hardware.dfps@1.0.so
 vendor/lib64/hw/dfps.mt6763.so
@@ -512,7 +511,6 @@ vendor/lib64/hw/memtrack.mt6763.so
 vendor/lib64/hw/vendor.mediatek.hardware.dfps@1.0-impl.so
 vendor/lib64/libfpspolicy.so
 vendor/lib64/libged.so
-vendor/lib64/libgpu_aux.so
 vendor/lib64/libpq_prot.so
 vendor/lib64/vendor.mediatek.hardware.dfps@1.0.so
 
@@ -599,6 +597,8 @@ vendor/lib64/hw/libSoftGatekeeper.so
 vendor/lib/egl/egl.cfg
 vendor/lib/egl/libGLES_mali.so
 vendor/lib/libOpenCL.so
+vendor/lib/libgpu_aux.so
+vendor/lib64/libgpu_aux.so
 vendor/lib64/egl/libGLES_mali.so
 vendor/lib64/libOpenCL.so
 
@@ -949,7 +949,6 @@ vendor/lib/libBnMtkCodec.so
 vendor/lib/libcurl_xcap_md.so
 vendor/lib/libfpspolicy.so
 vendor/lib/libged.so
-vendor/lib/libgpu_aux.so
 vendor/lib/libh264dec_customize.so
 vendor/lib/libh264dec_sa.ca7.so
 vendor/lib/libh264dec_sd.ca7.so
