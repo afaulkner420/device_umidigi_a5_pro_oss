@@ -678,8 +678,6 @@ vendor/lib64/libBnMtkCodec.so
 vendor/lib64/libvcodec_oal.so
 
 # Mediatek
-vendor/etc/media_codecs_mediatek_audio.xml
-vendor/etc/media_codecs_mediatek_video.xml
 vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib/vendor.mediatek.hardware.apmonitor@1.0.so
 vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
