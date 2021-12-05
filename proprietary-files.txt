@@ -851,6 +851,7 @@ vendor/etc/spn-conf-op09.xml
 vendor/lib64/libforkexecwrap.so
 vendor/lib/libcharon-ss.so
 vendor/lib/libwo.so
+vendor/lib64/libwo.so
 
 # Radio - from Ulefone/Note_11P/Note_11P:11/RP1A.200720.011/2106051247:user/release-keys
 vendor/lib/libsysenv.so|9bcd41968251814c2209257173e02a8589fa8f04
