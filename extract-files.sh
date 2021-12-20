@@ -77,6 +77,9 @@ function blob_fixup() {
         vendor/lib64/libmtk-ril.so)
             sed -i 's|AT+EAIC=2|AT+EAIC=3|g' "${2}"
             ;;
+        vendor/lib64/hw/gatekeeper.itrusty.so)
+            "${PATCHELF}" --replace-needed "libgatekeeper.so" "libgatekeeper-v28.so" "${2}"
+            ;;
     esac
 }
 
