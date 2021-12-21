@@ -80,6 +80,9 @@ function blob_fixup() {
         vendor/lib64/hw/gatekeeper.itrusty.so)
             "${PATCHELF}" --replace-needed "libgatekeeper.so" "libgatekeeper-v28.so" "${2}"
             ;;
+        vendor/lib/hw/audio.primary.mt6763.so)
+            "${PATCHELF}" --replace-needed "libmedia_helper.so" "libmedia_helper-v29.so" "${2}"
+            ;;
     esac
 }
 
