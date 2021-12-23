@@ -878,14 +878,11 @@ vendor/etc/init/loghidlvendorservice.rc
 vendor/etc/init/init_connectivity.rc
 vendor/etc/partition_permission.sh
 
-# Sensors
-vendor/bin/hw/android.hardware.sensors@1.0-service-mediatek
-vendor/etc/init/android.hardware.sensors@1.0-service-mediatek.rc
-vendor/lib/libsensorndkbridge.so
-vendor/lib64/hw/android.hardware.sensors@1.0-impl-mediatek.so
+# Sensors - from UMIDIGI/A7_Pro/A7_Pro:10/QP1A.190711.020/2111121735:user/release-keys
+vendor/bin/hw/android.hardware.sensors@2.0-service-mediatek
+vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc
 vendor/lib64/hw/sensors.mt6763.so
 vendor/lib64/libksensor.so
-vendor/lib64/libsensorndkbridge.so
 
 # Thermal
 vendor/bin/thermal
